@@ -1,4 +1,5 @@
 FROM openpai/standard:python_3.6-pytorch_1.2.0-gpu
+RUN apt-get update
 RUN pip install easydict
 RUN pip install dominate
 RUN pip install dill
