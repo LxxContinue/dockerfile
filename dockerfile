@@ -1,4 +1,4 @@
-FROM openpai/standard:python_3.6-pytorch_1.4.0-gpu
+FROM openpai/standard:python_3.6-pytorch_1.3.0-gpu
 
 RUN pip3 install numpy
 
