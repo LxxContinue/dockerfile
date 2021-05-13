@@ -14,3 +14,4 @@ RUN pip3 install  tensorboardX
 RUN pip3 install  scipy
 RUN pip3 install  opencv-python
 RUN pip3 install  einops
+RUN pip3 install  pyqt5
